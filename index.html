@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>PAYMENT GATEWAY - Secure Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- Header -->
+        <header class="app-header">
+            <div class="brand">
+                <div class="logo-icon">
+                    <span class="material-symbols-outlined">security</span>
+                </div>
+                <h2 class="brand-name">
+                    PAYMENT GATEWAY
+                </h2>
+            </div>
+
+            <div class="nav-links">
+                <a class="nav-link" href="#">Help Center</a>
+                <a class="nav-link" href="#">Contact Support</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Left Panel: Information -->
+            <div class="info-panel">
+                <div class="bg-pattern"></div>
+
+                <div class="info-content">
+                    <div class="flex flex-col gap-4" style="display: flex; flex-direction: column; gap: 1rem;">
+                        <span class="badge">
+                            <span class="badge-dot"></span>
+                            Secure Gateway
+                        </span>
+                        <h1 class="hero-title">
+                            Role-Based Access Control
+                        </h1>
+                        <p class="hero-desc">
+                            Welcome to the centralized access gateway. Please verify your identity to access specific
+                            departmental tools and secure environments.
+                        </p>
+                    </div>
+
+                    <!-- Role Definitions -->
+                    <div class="role-grid">
+                        <div class="role-card">
+                            <div class="role-icon">
+                                <span class="material-symbols-outlined">admin_panel_settings</span>
+                            </div>
+                            <div class="role-info">
+                                <h2>Admin Control</h2>
+                                <p>System-wide configuration and user management.</p>
+                            </div>
+                        </div>
+
+                        <div class="role-card">
+                            <div class="role-icon">
+                                <span class="material-symbols-outlined">account_balance</span>
+                            </div>
+                            <div class="role-info">
+                                <h2>Financial Data</h2>
+                                <p>Sensitive financial reporting and payroll access.</p>
+                            </div>
+                        </div>
+
+                        <div class="role-card">
+                            <div class="role-icon">
+                                <span class="material-symbols-outlined">groups</span>
+                            </div>
+                            <div class="role-info">
+                                <h2>HR Management</h2>
+                                <p>Employee records and recruitment portals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel: Login Form -->
+            <div class="login-panel">
+
+                <!-- Bg Blurs -->
+                <div class="blur-deco blur-1"></div>
+                <div class="blur-deco blur-2"></div>
+
+                <div class="login-card">
+                    <div class="login-header">
+                        <h1 class="login-title">Log in to your account</h1>
+                        <p class="login-subtitle">Enter your credentials to access the secure portal.</p>
+                    </div>
+
+                    <form class="login-form">
+
+                        <!-- Role Selection -->
+                        <div class="form-group">
+                            <label class="form-label">Select Role <span class="required-star">*</span></label>
+                            <div class="input-wrapper">
+                                <select class="form-select">
+                                    <option disabled="" selected="" value="">Choose role...</option>
+                                    <option value="admin">Administrator</option>
+                                    <option value="hr">HR Manager</option>
+                                    <option value="finance">Finance Team</option>
+                                    <option value="branch">Branch Manager</option>
+                                    <option value="employee">Employee</option>
+                                </select>
+                                <div class="input-icon input-icon-right">
+                                    <span class="material-symbols-outlined">expand_more</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Username -->
+                        <div class="form-group">
+                            <label class="form-label">Username or Work Email <span
+                                    class="required-star">*</span></label>
+                            <div class="input-wrapper">
+                                <input class="form-input" placeholder="user@company.com" type="text" required />
+                                <div class="input-icon input-icon-left">
+                                    <span class="material-symbols-outlined">person</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-group">
+                            <div class="label-row">
+                                <label class="form-label" style="padding-bottom: 0;">Password <span
+                                        class="required-star">*</span></label>
+                                <a class="forgot-password" href="#">Forgot password?</a>
+                            </div>
+                            <div class="input-wrapper">
+                                <input class="form-input" placeholder="••••••••" type="password" required />
+                                <div class="input-icon input-icon-left">
+                                    <span class="material-symbols-outlined">lock</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn-primary">
+                            <span>Access Dashboard</span>
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                    </form>
+
+                    <div class="footer-links">
+                        <p class="login-subtitle" style="font-size: 0.875rem;">
+                            By logging in, you agree to the <a class="text-link" href="#">Terms of Service</a> and <a
+                                class="text-link" href="#">Privacy Policy</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>© 2024 Enterprise Corp. Secure Connection Encrypted.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
