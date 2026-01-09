@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "fullName": "Rahul Sharma",
+    "email": "rahul@company.com",
+    "phone": "+91 98765 43210",
+    "department": "IT",
+    "role": "Senior Dev",
+    "joinDate": "2021-10-24",
+    "basicSalary": 76000,
+    "variance": 19000
+  },
+  {
+    "id": 2,
+    "fullName": "Priya Patel",
+    "email": "priya@company.com",
+    "phone": "+91 99887 76655",
+    "department": "HR",
+    "role": "Recruiter",
+    "joinDate": "2022-01-15",
+    "basicSalary": 49600,
+    "variance": 12400
+  },
+  {
+    "id": 3,
+    "fullName": "Amit Verma",
+    "email": "amit@company.com",
+    "phone": "+91 91234 56789",
+    "department": "Sales",
+    "role": "Manager",
+    "joinDate": "2020-03-10",
+    "basicSalary": 70400,
+    "variance": 17600
+  },
+  {
+    "id": 4,
+    "fullName": "Sneha Gupta",
+    "email": "sneha@company.com",
+    "phone": "+91 95678 12340",
+    "department": "Finance",
+    "role": "Analyst",
+    "joinDate": "2023-07-22",
+    "basicSalary": 60000,
+    "variance": 15000
+  },
+  {
+    "id": 5,
+    "fullName": "Vikram Singh",
+    "email": "vikram@company.com",
+    "phone": "+91 98761 23456",
+    "department": "IT",
+    "role": "DevOps Engineer",
+    "joinDate": "2022-11-05",
+    "basicSalary": 73600,
+    "variance": 18400
+  },
+  {
+    "id": 6,
+    "fullName": "Anjali Desai",
+    "email": "anjali@company.com",
+    "phone": "+91 90123 45678",
+    "department": "Sales",
+    "role": "Sales Rep",
+    "joinDate": "2023-02-14",
+    "basicSalary": 52000,
+    "variance": 13000
+  },
+  {
+    "id": 7,
+    "fullName": "Rohan Mehta",
+    "email": "rohan@company.com",
+    "phone": "+91 93456 78901",
+    "department": "Finance",
+    "role": "Accountant",
+    "joinDate": "2021-06-30",
+    "basicSalary": 56000,
+    "variance": 14000
+  },
+  {
+    "id": 8,
+    "fullName": "Kavita Reddy",
+    "email": "kavita@company.com",
+    "phone": "+91 97890 12345",
+    "department": "HR",
+    "role": "HR Manager",
+    "joinDate": "2019-09-12",
+    "basicSalary": 68000,
+    "variance": 17000
+  }
+]
